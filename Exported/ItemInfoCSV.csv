@@ -1,0 +1,4 @@
+Name,ItemType,ItemName,ItemCost,ItemInfo,Mesh,ItemImage,CurveFloat,RotationDuration
+Radio,Radio,Rockit Radio,153,Aradio shaped like a rocket,None,None,None,5
+Trophy,Trophy,Football Trophy,1,A trophy shaped like a football,,,,10
+Invalid Test,Invalid,?,?,?,,,,0
