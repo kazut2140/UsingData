@@ -1,0 +1,24 @@
+[
+	{
+		"Name": "Radio",
+		"ItemType": "Radio",
+		"ItemName": "test",
+		"ItemCost": "test",
+		"ItemInfo": "test",
+		"Mesh": "None",
+		"ItemImage": "None",
+		"CurveFloat": "None",
+		"RotationDuration": 5
+	},
+	{
+		"Name": "Trophy",
+		"ItemType": "Trophy",
+		"ItemName": "A Trophy",
+		"ItemCost": "1",
+		"ItemInfo": "It's a trophy",
+		"Mesh": "None",
+		"ItemImage": "None",
+		"CurveFloat": "None",
+		"RotationDuration": 15
+	}
+]
