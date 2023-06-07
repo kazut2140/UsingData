@@ -20,6 +20,8 @@ void ADataActorAsset::PostEditChangeProperty(FPropertyChangedEvent& PropertyChan
 			{
 				GenericItemInfo = ItemDataAsset->ItemInfoArray[i];
 				Mesh->SetStaticMesh(GenericItemInfo.Mesh);
+				mFloatCurve = GenericItemInfo.CurveFloat;
+				mRotationDuration = GenericItemInfo.RotationDuration;
 				break;
 			}
 		}

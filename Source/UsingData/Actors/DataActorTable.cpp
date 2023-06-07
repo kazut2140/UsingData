@@ -28,6 +28,8 @@ void ADataActorTable::PostEditChangeProperty(FPropertyChangedEvent& PropertyChan
 			GenericItemInfo.RotationDuration = Row->RotationDuration;
 
 			Mesh->SetStaticMesh(GenericItemInfo.Mesh);
+			mFloatCurve = GenericItemInfo.CurveFloat;
+			mRotationDuration = GenericItemInfo.RotationDuration;
 		}
 	}
 }
