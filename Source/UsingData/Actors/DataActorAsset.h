@@ -6,6 +6,9 @@
 #include "DataActorBase.h"
 #include "DataActorAsset.generated.h"
 
+
+class UItemDataAsset;
+
 /**
  * 
  */
@@ -20,6 +23,6 @@ protected:
 	virtual void PostEditChangeProperty(FPropertyChangedEvent& PropertyChangedEvent) override;
 #endif
 	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "Item Info")
-	UDataAsset* ItemDataAsset;
+	UItemDataAsset* ItemDataAsset;
 	
 };
