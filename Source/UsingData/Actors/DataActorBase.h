@@ -31,6 +31,9 @@ protected:
 	EItemType ItemType = EItemType::None;
 	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category = "Item Info")
 	FGenericItemInfo GenericItemInfo;
+
+	UPROPERTY(EditAnywhere, BlueprintreadWrite, Category = "Item Info")
+	bool bRunCode = false;
 	
 public:	
 	// Called every frame
