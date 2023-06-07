@@ -68,5 +68,8 @@ UCLASS()
 class USINGDATA_API UDataLibrary : public UBlueprintFunctionLibrary
 {
 	GENERATED_BODY()
-	
+
+	UFUNCTION(BlueprintCallable, Category = "Save", meta = (keywords = "Save"))
+	static bool SaveTable(FString SaveDirectory, FString FileName, UDataTable* DataTable, bool AllowOverWriting);
+
 };
